@@ -475,9 +475,9 @@ namespace UTJ
                     pivot = pivotGameObject.transform;
                     pivot.parent = parent;
                 }
-                pivot.localScale = Vector3.one;
+                // pivot.localScale = Vector3.one;
                 pivot.localEulerAngles = serializer.eulerAngles;
-                pivot.localPosition = Vector3.zero;
+                // pivot.localPosition = Vector3.zero;
             }
             return parentExists;
         }
